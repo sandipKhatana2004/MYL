@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Major Mono Display', monospace;
+  line-height: 1.5;
+}
+
+.app {
+  min-height: 90vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #87d7cc;
+  color: #2c888d;
+}
+
+.tm-title {
+  color: #49b2b8;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.timer {
+  color: #1f6e72;
+  font-size: 150px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.TimeControl{
+  margin-bottom: 6px;
+}
+
+@media (max-width: 780px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .ControlBox{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .timer {
+    font-size: 80px;
+  }
+
+}
