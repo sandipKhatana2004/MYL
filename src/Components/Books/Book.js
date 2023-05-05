@@ -1,5 +1,5 @@
 import React from "react";
-import "./notetaking.css";
+import "./book.css";
 
 const Book = ({ Book }) => {
   let author;

@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import ToDo from "./Components/ToDo/todo";
 import TimeManagement from "./Components/TimeManagement/timemanagement";
-import NoteTaking from "./Components/NoteTaking/notetaking";
+import NoteTaking from "./Components/Books/books";
 import Jarnuling from "./Components/journaling/juruling";
 import GoalsList from "./Components/Goal/goal_list";
 import EDR from "./Components/EveryDayRead/everydayread";

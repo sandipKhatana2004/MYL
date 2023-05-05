@@ -6,8 +6,8 @@ const Home = () => {
     <div>
       <div className="hm-box">
         <h1 className="hm-main-time">Welcome To MYL.</h1>
-        <h2 className="hm-shortform">MYL = Manage Your Life</h2>
-        <h4 className="hm-2shortform">- MYL is life management tool.</h4>
+        <h2 className="hm-shortform">MYL stands for Manage Your Life</h2>
+        <h4 className="hm-2shortform">- MYL is life </h4>
         <h4 className="hm-use">
           - using MYL you can manage your time, plan your day, set goals, take
           notes and last but not least read qouats or motivatinal lines.
