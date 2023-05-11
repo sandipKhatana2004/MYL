@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 
-import ToDo from "./Components/ToDo/todo";
+import TodoFeature from "./Components/ToDo/TodoFeature";
 import TimeManagement from "./Components/TimeManagement/timemanagement";
-import NoteTaking from "./Components/Books/books";
+import BookSearch from "./Components/Books/booksData";
 import Jarnuling from "./Components/journaling/juruling";
 import GoalsList from "./Components/Goal/goal_list";
 import EDR from "./Components/EveryDayRead/everydayread";
@@ -16,9 +16,9 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/todo" element={<ToDo />} />
+        <Route path="/todo" element={<TodoFeature />} />
         <Route path="/timemanagement" element={<TimeManagement />} />
-        <Route path="/notetaking" element={<NoteTaking />} />
+        <Route path="/notetaking" element={<BookSearch />} />
         <Route path="/jarnuling" element={<Jarnuling />} />
         <Route path="/goals" element={<GoalsList />} />
         <Route path="/everydayread" element={<EDR />} />

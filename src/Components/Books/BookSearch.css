@@ -1,0 +1,29 @@
+.book-search {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-search form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.book-search input {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.book-search button {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.book-search p {
+    text-align: center;
+    font-size: 1.2em;
+}
