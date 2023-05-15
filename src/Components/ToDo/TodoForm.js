@@ -6,7 +6,7 @@ const TodoForm = ({ addTodos }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (todo !== "") {
-      addTodo(todo);
+      addTodos(todo);
       setTodo("");
     }
   };
@@ -31,3 +31,5 @@ const TodoForm = ({ addTodos }) => {
     </div>
   );
 };
+
+export default TodoForm;
