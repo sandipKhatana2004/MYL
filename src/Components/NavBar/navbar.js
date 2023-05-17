@@ -21,7 +21,7 @@ const Nav = () => {
                 className="Hover"
                 to="/timemanagement"
               >
-                Time-Management
+                Timer
               </Link>
             </li>
             <li>
@@ -30,7 +30,7 @@ const Nav = () => {
                 className="Hover"
                 to="/todo"
               >
-                To-Do
+                Todo
               </Link>
             </li>
             <li>
